@@ -1,68 +1,87 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: sans-serif;
 }
 
-#apple-pie {
-    columns: 200px center justify;
+.image-content{
+    background-image: url('../images/apple-pie.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#apple-pie p {
-margin: 30px 400px;
-}
-
-#apple-pie h1 {
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 35%;
+.title {
     color: white;
-    font-size: 65px;
-    font-family: sans-serif;
+    font-size: 6rem;
     font-weight: normal;
 }
 
-hr {
-    margin: 20px 400px;
-}
-
 .apple-pie-img {
-    width: 800px;
-    display: inline-block;
-    margin: 0px 300px;
+    width: 100vw;
+    position: absolute;
+    z-index: -1000;
+}
+
+
+hr {
+    margin: 3rem
+}
+
+.description-content{
+    margin: 4rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+.info-img {
+    width: 50%;
+    margin-top: 3rem;
 
 }
 
-.recipe-info {
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+.section-content{
+    margin: 4rem 7rem;
+}
+.section-title{
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin: 1rem 0;
 }
 
-#ingredients {
-    margin: 15px 400px;
-}
-
-#ingredients ul {
+.ingredients-list {
     list-style-type: '- ';
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
 }
-
-.cooking-info {
-    width: 300px;
-    display: block;
-    margin: 10px auto;
+.img-box{
+    display: flex;
+    justify-content: center;
 }
-
-#directions {
-    margin: 20px 400px;
-
+.cooking-info-img {
+    width: 40%;
+    text-align: center;
+    margin-top: 3rem;
 }
-
-#directions ol {
+.directions-list {
+    margin: 1.5rem;
     list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
 }
