@@ -23,13 +23,6 @@ body {
     font-weight: normal;
 }
 
-.apple-pie-img {
-    width: 100vw;
-    position: absolute;
-    z-index: -1000;
-}
-
-
 hr {
     margin: 3rem
 }
@@ -47,12 +40,10 @@ hr {
     font-weight: lighter;
     text-align: justify;
 }
-.info-img {
+.section-img {
     width: 50%;
     margin-top: 3rem;
-
 }
-
 .section-content{
     margin: 4rem 7rem;
 }
@@ -61,27 +52,17 @@ hr {
     font-weight: normal;
     margin: 1rem 0;
 }
-
-.ingredients-list {
-    list-style-type: '- ';
-    margin: 1.5rem;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    line-height: 1.6rem;
-}
-.img-box{
-    display: flex;
-    justify-content: center;
-}
-.cooking-info-img {
-    width: 40%;
-    text-align: center;
-    margin-top: 3rem;
-}
-.directions-list {
+.section-list {
     margin: 1.5rem;
     list-style-type: none;
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 1.6rem;
+}
+.ingredients-list {
+    list-style-type: '- ';
+}
+.ingredients-img-box{
+    display: flex;
+    justify-content: center;
 }
